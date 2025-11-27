@@ -1,16 +1,36 @@
 # notes_frontend
 
-A new Flutter project.
+Starter Flutter app for a mobile-first notes experience following the "Ocean Professional" theme.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Ensure Flutter SDK is installed and configured.
+- From this directory, fetch packages and run:
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Theme
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ocean Professional
+- Primary: #2563EB
+- Secondary/Success: #F59E0B
+- Error: #EF4444
+- Background: #f9fafb
+- Surface: #ffffff
+- Text: #111827
+
+The app uses Material 3 with subtle shadows, rounded corners, and a clean, modern UI.
+
+## Structure
+
+- lib/main.dart: Entry point and MaterialApp
+- lib/theme.dart: ThemeData and color constants
+- lib/screens/home_screen.dart: Notes list placeholder screen
+- lib/widgets/note_card.dart: Reusable note card widget
+
+## Notes
+
+Search and Add actions are placeholders (no-op) at this stage.
